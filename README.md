@@ -37,7 +37,7 @@ ALCHEMY_ID=
 ```bash
 truffle deploy --network [goerli|mumbai]
 ```  
-Pour exécuter les tests unitaires Solidity, exécuter ganache et lancer :  
+Pour exécuter les tests unitaires Solidity, il faut lancer ganache et exécuter la commande suivante :  
 ```bash
 truffle test --to 1
 ```  
