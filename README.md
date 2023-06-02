@@ -36,6 +36,10 @@ ALCHEMY_ID=
  - Exécutez la commande suivante pour déployer votre contrat sur la blockchain publique  :  
 ```bash
 truffle deploy --network [goerli|mumbai]
-```
+```  
+Pour exécuter les tests unitaires Solidity, exécuter ganache et lancer :  
+```bash
+truffle test --to 1
+```  
 ## Stack technique
 ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
